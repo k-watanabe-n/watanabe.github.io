@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WATANABE Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/781abcd935.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="mv">
+        <div class="container">
+          <h1>KEIICHI <br class="s-br" /><span class="mv-w">W</span>ATANABE</h1>
+          <p>Portfolio</p>
+        </div>
+      </section>
+      <header>
+        <nav class="nav" id="global-nav">
+          <ul>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#Service">SERVICE</a></li>
+            <li><a href="#Portfolio">PORTFOLIO</a></li>
+            <li><a href="#Contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="about" id="About">
+          <h2>About</h2>
+          <div class="a-container">
+            <img src="images/nabeo_plofile.png" alt="" />
+            <div class="a-r-box">
+              <h3>Profile</h3>
+              <p>
+                初めまして。
+                <br />この度はご訪問いただき、ありがとうございます。
+                <br />WEB系フリーランスエンジニアとして活動してます、
+                <br />渡辺　圭一と申します。
+                <br />WEBサイト制作、コーディング、古くなったサイトの
+                <br />更新、修正など、迅速かつ丁寧に対応させていただきます。
+                <br />お客様のご要望に寄り添い、それぞれに合った物を形にしてい
+                <br />くお手伝いができたらと思っています。
+                <br />些細なことでもお気軽にお問い合わせください。
+              </p>
+              <h3>スキル</h3>
+              <p>HTML5/CSS3/JavaScript(jQuery)</p>
+            </div>
+          </div>
+        </section>
+        <section class="service" id="Service">
+          <h2>SERVICE</h2>
+          <div class="s-container">
+            <div class="s-box">
+              <i class="fas fa-code"></i>
+              <h3>コーディング</h3>
+              <p>
+                お客様からデザインデータをお預かりし、デザイン通り、かつシンプルで適切なコーディングを心がけています。サイトが重くならないよう、データの軽量化やSEO対策を意識したコーディングを行います。
+              </p>
+            </div>
+            <div class="s-box">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>レスポンシブ対応</h3>
+              <p>
+                近年、スマートフォンでのサイト閲覧が主流になってきました。PCサイトはもちろん、タブレット、スマートフォン、どの画面にも対応したサイトを制作いたします。
+              </p>
+            </div>
+            <div class="s-box">
+              <i class="fas fa-laptop"></i>
+              <h3>メンテナンス</h3>
+              <p>
+                WEBサイトの更新やメンテナンスは非常に大切です。
+                サイト公開後のサポートも承ります。古くなったサイトの更新や、写真、画像の変更、サイトに動きをつけたいなど、どうぞお気軽にご相談ください。
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="port" id="Portfolio">
+          <h2>PORTFOLIO</h2>
+          <div class="p-container">
+            <div class="p-box">
+              <a href="https://mysamplephotographer.web.app/" target="_blank">
+                <img
+                  src="images/p-1.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="p-box">
+              <a href="https://mysamplecompany-e0def.web.app/" target="_blank">
+                <img
+                  src="images/s-c.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="p-box">
+              <a href="https://my-sample-site-24fc2.web.app/" target="_blank">
+                <img
+                  src="images/s-s.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="contact" id="Contact">
+          <h2>CONTACT</h2>
+          <div class="c-container">
+            <div class="form">
+              <label for="name"
+                ><span class="i-name">お名前</span><br />
+                <input type="text" id="name" placeholder="お名前" />
+              </label>
+              <label for="mail"
+                ><span class="i-name">メールアドレス</span><br />
+                <input type="text" id="mail" placeholder="@mail.com" />
+              </label>
+              <label for="content"
+                ><span class="i-name">お問い合わせ</span><br />
+                <textarea
+                  name="content"
+                  id="content"
+                  class="content"
+                  cols="30"
+                  rows="10"
+                  placeholder="どうぞお気軽にお問い合わせください。"
+                ></textarea>
+              </label>
+              <button class="btn">送信</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>©︎ Copyright Keiichi Watanabe 2020</p>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
